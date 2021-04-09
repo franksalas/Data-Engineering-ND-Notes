@@ -23,3 +23,9 @@ python notes.py
 # follow the instructions
 
 ```
+
+## TODO
+- explain how to use `note.py`
+- ...stuff..
+
+![](https://media.giphy.com/media/Ll2fajzk9DgaY/giphy.gif)
