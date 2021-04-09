@@ -19,6 +19,7 @@ def cli():
     click.echo(f'Your title is: {title}')
 
 def template():
+    
     post_template ="""
 # Section: {section}
 # Lesson: {lesson}
@@ -27,7 +28,6 @@ def template():
 ---
 """
     return post_template
-
 
 def clean_title(title):
     '''Clean the title'''
