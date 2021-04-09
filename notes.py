@@ -15,9 +15,7 @@ def cli():
     bg_slug = slug_title(title_clean)  # create slug
     dir = make_dirs(section,lesson)
     md_temp = template()  # load empty template function
-    # md_temp, title_clean, dir,part,module, section,lesson, slug
     fill_md(md_temp,section, lesson,title_clean,dir,bg_slug)  # load empty template with data and save
-    #click.echo(f'Your Lesson is: {lesson}')
     click.echo(f'Your title is: {title}')
 
 def template():
@@ -39,6 +37,7 @@ def clean_title(title):
     return clean_title
 
 def slug_section(section):
+    '''slug section '''
     slug = section.strip().replace(' ', '_')
     return slug
 
@@ -47,10 +46,9 @@ def slug_title(title):
     slug = title.lower().strip().replace(' ', '-')
     return slug
     
-# part01/module01/lesson/
+# content/section/lesson_xx/
 def make_dirs(section,lesson):
     '''create directories'''
-
     #content
     notes_dir ='content'
     if not os.path.exists(notes_dir):
@@ -61,7 +59,6 @@ def make_dirs(section,lesson):
     section_dir ='{}/{}'.format(notes_dir,section)
     if not os.path.exists(section_dir):
         os.makedirs(section_dir)
-
 
     # lesson section
     lession_sec = '{}/Lesson_{}'.format(section_dir,lesson)
@@ -74,14 +71,8 @@ def make_dirs(section,lesson):
 
 def fill_md(md_temp,section,lesson, title_clean, dir, slug):
     today = datetime.today()
-    # part = 'P{}'.format(part[-2:])
-    # module = 'M{}'.format(module[-2:])
-    # lesson = 'S{}'.format(lesson[-2:])
-    # part01/module01/lesson/
+    # content/section/lesson_xx/concepts.md
     md_file = "{}/{}.md".format(dir,slug)
-    # md_file = "{}/CH{}-{}.md".format(
-    #     dir,lesson,
-    #      slug)
     md_post = md_temp.strip().format(section = section, 
                                     lesson = lesson,
                                     title=title_clean.title(),

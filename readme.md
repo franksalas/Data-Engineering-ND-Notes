@@ -15,3 +15,11 @@ conda activate dend
 ```bash
 conda env export > environment.yml
 ```
+
+# Create markdown file
+
+```bash
+python notes.py
+# follow the instructions
+
+```
