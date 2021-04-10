@@ -1,5 +1,7 @@
 # Data Engineering Nanodegree Notes
+# Program Syllabus
 
+![](https://i.imgur.com/DVJ9M9k.png)
 
 ## Create enviroment
 ```bash
