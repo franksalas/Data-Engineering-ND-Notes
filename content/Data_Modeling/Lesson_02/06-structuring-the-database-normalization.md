@@ -8,6 +8,8 @@
 
 - **Normalization**: To reduce data redundancy and incrase data integrity
   - The process of structuring a relational database in accordance with a series of forms in order to reduce data redundancy and increase data integrity.
-  - 
+
+ ![](https://i.imgur.com/1wahecF.png)
+
 - **Denormalization** : Must be done in read heavy workloads to increase performance
-- 
+
