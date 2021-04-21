@@ -53,14 +53,14 @@ CREATE TABLE IF NOT EXISTS customer_transactions (
 );
 ```
 
-## `PRIMARY KEY`
-- The `PRIMARY KEY` constrain is defined on a single col, and every table should contain a prinmary key.
+## ` **PRIMARY KEY**`
+- The ` **PRIMARY KEY**` constrain is defined on a single col, and every table should contain a prinmary key.
 - the value in this col uniqely identify the rows in the table
-- if a group of col are define as a primary keym theya are called a `COMPOSITE KEY`, that means the combination of values in these cols will unqiuely idenityf the rows in the table
-- By default the `PRIMARY KEY` constraint has the uniqeu and not null constraint build into it
+- if a group of col are define as a  **PRIMARY KEY**m theya are called a `COMPOSITE KEY`, that means the combination of values in these cols will unqiuely idenityf the rows in the table
+- By default the ` **PRIMARY KEY**` constraint has the uniqeu and not null constraint build into it
 ```sql
 CREATE TABLE IF NOT EXISTS store (
-    store_id int PRIMARY KEY, 
+    store_id int  **PRIMARY KEY**, 
     store_location_city text,
     store_location_state text
 );
@@ -72,7 +72,7 @@ CREATE TABLE IF NOT EXISTS customer_transactions (
     customer_id int, 
     store_id int, 
     spent numeric,
-    PRIMARY KEY (customer_id, store_id)
+     **PRIMARY KEY** (customer_id, store_id)
 );
 ```
 

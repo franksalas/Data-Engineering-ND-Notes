@@ -35,8 +35,8 @@ We will focus on Apache Cassandra to explain concepts of data modeling for NoSQL
   - Fundemental unit of access
   - Collection of row(s)
   - how data is distrubuted 
-- Primary Key
-  - primary Key is made up of a partition key and clustering columns
+-  **PRIMARY KEY**
+  -  **PRIMARY KEY** is made up of a  **PARTITION KEY** and clustering columns
 - Columns
   - clusering data
   - labeled element

@@ -33,7 +33,7 @@ The process of normalization is a step by step process
 ![](https://i.imgur.com/rcMkRbJ.png)
 
 - have reached `1NF`
-- all columns in the table must rely on the Primary Key
+- all columns in the table must rely on the  **PRIMARY KEY**
   - no composite keys to get field
 
 

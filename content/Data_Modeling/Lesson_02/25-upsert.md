@@ -16,7 +16,7 @@
 Lets look at a simple example, We will use tha customer address table as an example, which is defined with the following `CREATE` statenent
 ```sql
 CREATE TABLE IF NOT EXISTS customer_address (
-    customer_id int PRIMARY KEY, 
+    customer_id int  **PRIMARY KEY**, 
     customer_street varchar NOT NULL,
     customer_city text NOT NULL,
     customer_state text NOT NULL
