@@ -1,5 +1,4 @@
 {
-    "python.pythonPath": "/home/frank/miniconda3/envs/dend/bin/python",
     "editor.fontSize": 20,
     "files.autoSave": "onFocusChange",
     "editor.fontFamily": "\"Operator Mono\", Consolas, 'Courier New', monospace"
