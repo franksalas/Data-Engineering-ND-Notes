@@ -17,11 +17,11 @@
 ## Part 3 Cloud Data Warehouse
 
 - [x] [Lecture Notes](https://github.com/franksalas/Data-Engineering-ND-Notes/tree/main/content/Cloud_Data_Warehouses)
-- [ ] **Project**: [Data Warehouse](https://github.com/franksalas/Data-Warehouse-with-Redshift)
+- [x] **Project**: [Data Warehouse](https://github.com/franksalas/Data-Warehouse-with-Redshift)
 
 ## Part 4 Data Lakes with Spark
 - [x] [Lecture Notes](https://github.com/franksalas/Data-Engineering-ND-Notes/tree/main/content/Data_Lake_with_Spark)
-- [ ] **Project**: Data Lake
+- [x] **Project**: [Data Lake](https://github.com/franksalas/Data-Lakes-with-Spark)
 - [x] **Project**: [Optimized Your Github Profile](https://github.com/franksalas)
 
 ## Part 5 : Data Pipelines with Airflow
